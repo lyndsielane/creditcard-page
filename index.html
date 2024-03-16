@@ -7,6 +7,39 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <img
+        class="checkout-img"
+        src="./assets/vecteezy_beautiful-elegance-and-luxury-fashion-pink-women-handbag_2234980.jpg"
+      />
+      <div class="checkout">
+        <form>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" />
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" /><br />
+          <label for="saddress">Shipping address:</label>
+          <input type="text" id="saddress" name="saddress" /><br />
+          <p>Shipping Speed:</p>
+          <input type="radio" id="regular" name="reg_ship" value="regular" />
+          <label for="regular">Regular</label>
+          <input type="radio" id="expres" name="exp_ship" value="express" />
+          <label for="express">Express</label><br />
+          <label for="cardtype">Credit Card Type:</label>
+          <select id="cardtype" name="card">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="AmericanEx">American Express</option></select
+          ><br />
+          <label for="cardnumber" id="cardnumber" name="cardnumber"
+            >Credit Card Number:</label
+          >
+          <input type="number" /><br />
+          <label for="exdate" id="exdate" name="exdate">Expiration Date:</label>
+          <input type="date" /><br />
+          <input type="button" value="Submit"></input>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
