@@ -10,23 +10,24 @@
     <div class="container">
       <img
         class="checkout-img"
-        src="./assets/vecteezy_beautiful-elegance-and-luxury-fashion-pink-women-handbag_2234980.jpg"
+        src="./assets/vecteezy_credit-cards-on-a-banknotes-background_6906973.jpg"
       />
       <div class="checkout">
+        <h2>Checkout Information</h2>
         <form>
           <label for="fname">First name:</label>
-          <input type="text" id="fname" name="fname" />
+          <input class="inputField" type="text" id="fname" name="fname" /><br />
           <label for="lname">Last name:</label>
-          <input type="text" id="lname" name="lname" /><br />
+          <input class="inputField" type="text" id="lname" name="lname" /><br />
           <label for="saddress">Shipping address:</label>
-          <input type="text" id="saddress" name="saddress" /><br />
-          <p>Shipping Speed:</p>
-          <input type="radio" id="regular" name="reg_ship" value="regular" />
-          <label for="regular">Regular</label>
-          <input type="radio" id="expres" name="exp_ship" value="express" />
-          <label for="express">Express</label><br />
+          <input
+            class="inputField"
+            type="text"
+            id="saddress"
+            name="saddress"
+          /><br />
           <label for="cardtype">Credit Card Type:</label>
-          <select id="cardtype" name="card">
+          <select class="inputField" id="cardtype" name="card">
             <option value="Visa">Visa</option>
             <option value="Mastercard">Mastercard</option>
             <option value="AmericanEx">American Express</option></select
@@ -34,10 +35,10 @@
           <label for="cardnumber" id="cardnumber" name="cardnumber"
             >Credit Card Number:</label
           >
-          <input type="number" /><br />
+          <input class="inputField" type="number" /><br />
           <label for="exdate" id="exdate" name="exdate">Expiration Date:</label>
-          <input type="date" /><br />
-          <input type="button" value="Submit"></input>
+          <input class="inputField" type="date" /><br />
+          <input type="submit" value="Checkout" />
         </form>
       </div>
     </div>
