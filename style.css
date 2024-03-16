@@ -13,6 +13,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #594236;
 }
 
 .checkout-img {
@@ -29,7 +30,7 @@ body {
 }
 
 .checkout > h2 {
-  text-align: left;
+  color: #594236;
 }
 
 .inputField {
@@ -37,9 +38,11 @@ body {
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 5px;
+  border: 1px solid #594236;
 }
 
 input[type="submit"] {
   border-radius: 5px;
-  margin: auto;
+  color: #594236;
+  border: 2px solid #594236;
 }
